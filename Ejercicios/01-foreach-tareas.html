@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array de tareas</h1>
+    <div id="tarea"></div>   
+    <script>
+        const tareas = [{titulo : 'tarea 1', descripcion : 'contexto de la tarea 1', estado : false},{titulo : 'tarea 2', descripcion : 'contexto de la tarea 2', estado : false},{titulo : 'tarea 3', descripcion : 'contexto de la tarea 3', estado : false}]
+
+        const tareas1 = document.getElementById('tarea');
+        tareas.array.forEach(element => {
+            tareas1.innerHTML=(`<li>${element.titulo} ${element.descripcion} ${element.estado}</li>`)
+        });
+        
+
+    </script>
+
+</body>
+</html>

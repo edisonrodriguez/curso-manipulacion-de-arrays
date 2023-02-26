@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--     <h1>Manejo de array</h1>
+    <div id="app"></div>
+    <script>
+        const products = [{title: 'burguer', price: 121},{title: 'Pizza', price: 20}]
+        const app=document.getElementById('app');
+        products.forEach(element => {
+            app.innerHTML += `<li>${element.title} ${element.price}</li>`
+        });
+    </script> -->
+
+    <h1>Array de tareas</h1>
+    <div id="tarea"></div>   
+    <script>
+        const tareas = [{titulo : 'tarea 1', descripcion : 'contexto de la tarea 1', estado : false},{titulo : 'tarea 2', descripcion : 'contexto de la tarea 2', estado : false},{titulo : 'tarea 3', descripcion : 'contexto de la tarea 3', estado : false}]
+
+        const tareas1 = document.getElementById('tarea');
+        tareas.forEach(element => {
+            tareas1.innerHTML +=`<li>${element.titulo} ${element.descripcion} ${element.estado}</li>`
+        });
+        
+
+    </script>
+</body>
+</html>
